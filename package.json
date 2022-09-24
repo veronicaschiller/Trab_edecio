@@ -1,0 +1,19 @@
+{
+  "name": "trab_edecio",
+  "version": "1.0.0",
+  "description": "",
+  "main": "App.js",
+  "type": "module",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "bcrypt": "^5.0.1",
+    "express": "^4.18.1",
+    "knex": "^2.3.0",
+    "sqlite3": "^5.1.1"
+  }
+}
