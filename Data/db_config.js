@@ -1,5 +1,5 @@
 import knex from "knex";
-import { development } from "../knexFile";
+import { development } from "../knexFile.js";
 
 const connection = knex(development)
 

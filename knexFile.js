@@ -4,9 +4,9 @@
  * @type { Object.<string, import("knex").Knex.Config> }
  */
  export const development = {
-    client: 'sqlite3',
+    client: 'better-sqlite3',
     connection: {
-      filename: './data/revenda.db'
+      filename: './Data/insulina.db'
     },
     useNullAsDefault: true
   };

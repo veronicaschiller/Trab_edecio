@@ -1,9 +1,9 @@
 import express from "express";
-import Routes from './routes.js'
+import routes from './routes.js'
 const app  = express()
 const port = 3000
 
-app.use(Routes);
+app.use(routes);
 
 app.get('/', (req,res) =>{
     res.send('lista de doses de insulina')
